@@ -3,7 +3,7 @@ I went ahead and wrote a bash script to perform this task
 
 
 hexadecimal =  $(echo '0x70')
-for value in hexadecimal; do
+for value in $hexadecimal; do
     echo $value | xxd -r #reverses the string
 done
 
