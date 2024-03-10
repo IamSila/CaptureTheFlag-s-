@@ -2,6 +2,7 @@
 # This bash script converts a hexadecimal to ascii
 
 hexadecimal=$(echo '0x70')
-for value in $hexadecimal; do
+for value in $hexadecimal; 
+do
     echo $value | xxd -r
 done
