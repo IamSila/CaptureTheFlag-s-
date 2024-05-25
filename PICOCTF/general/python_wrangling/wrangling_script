@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+python3 ende.py -d flag.txt.en
+# then enter the password: 6008014f6008014f6008014f6008014f
+
+#yaay you have hacked your way into the challenge ;)

@@ -1,0 +1,10 @@
+This challenge helps you understand how to view the contents of a file using the cat command in the bash terminal
+If a file is called text_file you can view its contents using the command below:
+
+	cat text_file
+
+or you can use your favourite editor such as vim or gedit or mousepad to view the contents as below:
+	vim text_file
+	gedit text_file
+
+yaay, flag collected :)
