@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+
+int main(void)
+{
+		printf("%c", 112);
+		printf("%c", 105);
+		printf("%c", 99);
+		printf("%c", 111);
+		printf("%c", 67);
+		printf("%c", 84);
+		printf("%c", 70);
+		printf("%c", 123);
+		printf("%c", 103);
+		printf("%c", 48);
+		printf("%c", 48);
+		printf("%c", 100);
+		printf("%c", 95);
+		printf("%c", 107);
+		printf("%c", 49);
+		printf("%c", 116);
+		printf("%c", 116);
+		printf("%c", 121);
+		printf("%c", 33);
+		printf("%c", 95);
+		printf("%c", 110);
+		printf("%c", 49);
+		printf("%c", 99);
+		printf("%c", 51);
+		printf("%c", 95);
+		printf("%c", 107);
+		printf("%c", 49);
+		printf("%c", 116);
+		printf("%c", 116);
+		printf("%c", 121);
+		printf("%c", 33);
+		printf("%c", 95);
+		printf("%c", 53);
+		printf("%c", 102);
+		printf("%c", 98);
+		printf("%c", 53);
+		printf("%c", 101);
+		printf("%c", 53);
+		printf("%c", 49);
+		printf("%c", 100);
+		printf("%c", 125);
+		printf("%c", 10);
+		return (0);
+}

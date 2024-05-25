@@ -1,0 +1,6 @@
+use the ascii table to convert the numbers into characters
+use the command below
+	ascii -d
+then map each character and comeup with the flag in the order which they appear
+
+happy hacking ;)
