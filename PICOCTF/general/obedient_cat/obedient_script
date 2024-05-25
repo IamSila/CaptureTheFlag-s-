@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#cd to the location of the downloaded file
+# to see the type of the file( script or an executable)
+file flag
+#to view the contents of the file
+cat flag
+#after writing the script make it an executable
+chmod +x flag
+#run the script
