@@ -1,0 +1,10 @@
+This challenge is testing information disclosure under github
+download the challenge zip, unzip using the command below
+	unzip [filename]
+observe it is a git folder
+cat message.txt and I observe it has nothing
+After visiting all the other repositories and finding no flag, I download "git-cola" a gui based
+utility for dealing with github commits push and alot more.
+I undo a commit and boom the flag lies there
+
+picoctf{s....}
