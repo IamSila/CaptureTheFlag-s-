@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# download the file and move it to ~ then run this script
+cd ~
+wget https://jupiter.challenges.picoctf.org/static/315d3325dc668ab7f1af9194f2de7e7a/file
+# check the type of the file - it is ascii text
+file file
+cat file | grep "pico"
+# this with throw the flag for you to catch
+# then make it executable
+
