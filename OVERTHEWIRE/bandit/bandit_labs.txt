@@ -1,0 +1,25 @@
+BANDIT LABS
+BANDIT LEVEL 0 -> LEVEL 1
+use the cat or pico or any text editor to veiw the contents of the readme file
+password for level 1 -> level 2 [ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If]
+
+
+BANDIT LEVEL 1 -> LEVEL 2 
+you can view the contents of a dashed file (-) by using the following 2 methods:
+	1. ./[dashed file name here]
+	2. < [dashed file name here]
+password for level 2 - level 3 is [263JGJPfgU6LtdEvgfWU1XP5yac29mFx]
+
+
+BANDIT LEVEL 2 -> LEVEL 3
+there is a file with spaces
+To view the contents use the following methods.Suppose the file name is file with spaces
+	1.cat file\ with\ spaces
+	2.cat "file with spaces"
+if it is a directory add a foward slash at the end
+	eg. cd file\ with\ spaces/
+password for level 3 - level 4 is [MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx]
+
+
+BANDIT LEVEL 3 -> LEVEL 4
+
