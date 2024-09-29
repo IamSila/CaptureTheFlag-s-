@@ -22,4 +22,19 @@ password for level 3 - level 4 is [MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx]
 
 
 BANDIT LEVEL 3 -> LEVEL 4
+- hidden files can be accessed using the command with a couple of flags.
+- These flags are -a and maybe -l to list the files in a list form:
+	example: if we use ls -la we will list even the hidden files in a list.
 
+so how do we solve this level?
+1.login to bandit level 3 using ssh and the password from level two.
+2. run the following command:
+	$ ls -la
+3. Then cat the content of ...Hidden-from-You using the following command:
+	cat ...Hidden-From-You
+4. obtaint the password as follows: WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+
+Password level 4 -> level 5 [WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ]
+
+BANDIT LEVEL 4 -> LEVEL 5
