@@ -32,9 +32,23 @@ so how do we solve this level?
 	$ ls -la
 3. Then cat the content of ...Hidden-from-You using the following command:
 	cat ...Hidden-From-You
-4. obtaint the password as follows: WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+4. obtaint the password as follows: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 
-Password level 4 -> level 5 [WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ]
+Password level 4 -> level 5 [2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ]
 
 BANDIT LEVEL 4 -> LEVEL 5
+- The password is save in a human readable file, the only one infact.
+- The hint is how to clear the screen it means we will do alot of work here, so what work will we be doing?
+
+1. run the following command to check the type of the file:
+	file filename
+2. Observe that one file has a type of ASCII text, and boom, you caught it... That is the file.
+3. Run cat [that file name here] to view its contents.
+NB: Notice that the files are dashed : ie.begin with a dash.
+use ./dashed filename to work on it.
+
+password for level 5 -> level 6 is [4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw]
+
+BANDIT LEVEL 5 - LEVEL 6
+- 
