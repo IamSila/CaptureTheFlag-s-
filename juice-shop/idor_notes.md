@@ -35,8 +35,8 @@ Keep-Alive: timeout=5
 
 - /rest/products/1/reviews -> Can I add a review using another user's email? [IDOR PRESENT]
 
-/rest/track-order/b827-d4e01690bb71282e -> we can track another user's order by changing the order-id [IDOR PRESENT]
+- /rest/track-order/b827-d4e01690bb71282e -> we can track another user's order by changing the order-id [IDOR PRESENT]
 
-/change-password -> I am able to change password if I remove the current password parameter. If I change the token to another user's password can I change that user's password?
+- /change-password -> I am able to change password if I remove the current password parameter. If I change the token to another user's password can I change that user's password?
 
 
