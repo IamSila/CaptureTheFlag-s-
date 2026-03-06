@@ -1,8 +1,8 @@
 # IDOR
 ## intresting features and parameters
-customer feedback: http://10.6.6.12:3000/#/contact   [IDOR PRESENT]
-customer complaint: http://10.6.6.12:3000/#/complain     -> [IDOR PRESENT]
-/rest/chatbot/respond -> try switching the token as the response tries to process it
+- customer feedback: http://10.6.6.12:3000/#/contact   [IDOR PRESENT]
+- customer complaint: http://10.6.6.12:3000/#/complain     -> [IDOR PRESENT]
+- /rest/chatbot/respond -> try switching the token as the response tries to process it
 
 ```
     HTTP/1.1 200 OK
@@ -28,15 +28,15 @@ Keep-Alive: timeout=5
 ```
 
 
-/api/feedback -> Exposes all users.
-/rest/memories -> Exposes more users.
+- /api/feedback -> Exposes all users.
+- /rest/memories -> Exposes more users.
 
-/rest/chatbot/respond -> if I change the token, can I interact with the support chat as another user
+- /rest/chatbot/respond -> if I change the token, can I interact with the support chat as another user
 
-/rest/products/1/reviews -> Can I add a review using another user's email? [IDOR PRESENT]
+- /rest/products/1/reviews -> Can I add a review using another user's email? [IDOR PRESENT]
 
+/rest/track-order/b827-d4e01690bb71282e -> we can track another user's order by changing the order-id [IDOR PRESENT]
 
-
-
+/change-password -> I am able to change password if I remove the current password parameter. If I change the token to another user's password can I change that user's password?
 
 
