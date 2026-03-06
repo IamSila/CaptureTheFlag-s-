@@ -1,7 +1,7 @@
 # IDOR
 ## intresting features and parameters
-customer feedback: http://10.6.6.12:3000/#/contact
-customer complaint: http://10.6.6.12:3000/#/complain
+customer feedback: http://10.6.6.12:3000/#/contact   [IDOR PRESENT]
+customer complaint: http://10.6.6.12:3000/#/complain     -> [IDOR PRESENT]
 /rest/chatbot/respond -> try switching the token as the response tries to process it
 
 ```
@@ -33,6 +33,7 @@ Keep-Alive: timeout=5
 
 /rest/chatbot/respond -> if I change the token, can I interact with the support chat as another user
 
+/rest/products/1/reviews -> Can I add a review using another user's email? [IDOR PRESENT]
 
 
 
